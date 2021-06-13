@@ -34,8 +34,8 @@ The extension search your selected text from the current active file in DevDocs.
 
 Name                   | Description                              | Keybindings
 --------------------   | ---------------------------------------  | ------------
-DevDocsTab.home        | Open DevDocs Home Page                   | `ctrl+k ctrl+k`
-DevDocsTab.search      | Search DevDocs with the selected words   |
+DevDocsTab.home        | Open DevDocs Home Page                   | 
+DevDocsTab.search      | Search DevDocs with the selected words   | `ctrl+k ctrl+k`
 DevDocsTab.preferences | Open DevDocs Docs/Settings Page          |
 DevDocsTab.offline     | Open DevDocs Offline Documentation page  | 
 
