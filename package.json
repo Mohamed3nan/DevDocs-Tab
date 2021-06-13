@@ -5,7 +5,7 @@
 	"publisher": "Anan",
 	"version": "1.0.0",
 	"license": "MIT",
-    "icon": "./images/webapp-icon-128.png",
+    "icon": "images/webapp-icon-128.png",
 	"galleryBanner": {
         "color": "#3c3f41",
         "theme": "dark"
