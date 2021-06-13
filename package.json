@@ -1,0 +1,118 @@
+{
+	"name": "devdocstab",
+	"displayName": "DevDocs Tab",
+	"description": "An extension for Visual Studio Code to search for documentation on DevDocs.io faster by displaying it in a tab inside VS Code.",
+	"publisher": "Anan",
+	"version": "1.0.0",
+	"license": "MIT",
+    "icon": "./images/webapp-icon-128.png",
+	"galleryBanner": {
+        "color": "#3c3f41",
+        "theme": "dark"
+      },
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Other","Programming Languages"
+	],"keywords": [
+		"docs",
+		"doc",
+        "documentation",
+        "documentations",
+		"search",
+        "keybindings",
+        "keybinding",
+        "devdocs",
+		"devdoc"
+	],
+    "homepage": "https://github.com/mohamed3nan/DevDocs-Tab",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mohamed3nan/DevDocs-Tab"
+    },
+    "bugs": {
+		"url": "https://github.com/mohamed3nan/DevDocs-Tab/issues"
+    },
+	"badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version/Anan.devdocstab.svg",
+			"href": "https://marketplace.visualstudio.com/items/Anan.devdocstab",
+			"description": "Version"
+		},
+        {
+			"url": "https://vsmarketplacebadge.apphb.com/installs-short/Anan.devdocstab.svg",
+			"href": "https://marketplace.visualstudio.com/items/Anan.devdocstab",
+			"description": "Installs"
+		},
+        {
+			"url": "https://vsmarketplacebadge.apphb.com/downloads-short/Anan.devdocstab.svg",
+			"href": "https://marketplace.visualstudio.com/items/Anan.devdocstab",
+			"description": "Downloads"
+		},
+        {
+			"url": "https://vsmarketplacebadge.apphb.com/rating-star/Anan.devdocstab.svg",
+			"href": "https://marketplace.visualstudio.com/items/Anan.devdocstab",
+			"description": "Rating"
+		}
+	],
+	"activationEvents": [
+		"onCommand:DevDocsTab.home",
+        "onCommand:DevDocsTab.search",
+        "onCommand:DevDocsTab.preferences",
+        "onCommand:DevDocsTab.offline"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "DevDocsTab.home",
+				"title": "DevDocsTab: Home DevDocs.io"
+			},
+			{
+				"command": "DevDocsTab.search",
+				"title": "DevDocsTab: Search in DevDocs.io"
+			},
+			{
+				"command": "DevDocsTab.preferences",
+				"title": "DevDocsTab: Preferences DevDocs.io"
+			},
+			{
+				"command": "DevDocsTab.offline",
+				"title": "DevDocsTab: Offline Data DevDocs.io"
+			}
+		],
+	    "menus": {
+			"editor/context": [
+			  {
+				"command": "DevDocsTab.search",
+				"group": "y_commands@0"
+			  }
+			]
+		  },
+		"keybindings": [
+            {
+                "command": "DevDocsTab.search",
+				"key": "ctrl+k ctrl+k",
+				"mac": "cmd+k cmd+k",
+				"when": "editorTextFocus"
+            }
+        ]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.56.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	}
+}
