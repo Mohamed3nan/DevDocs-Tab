@@ -3,7 +3,7 @@
 	"displayName": "DevDocs Tab",
 	"description": "An extension for Visual Studio Code to search for documentation on DevDocs.io faster by displaying it in a tab inside VS Code.",
 	"publisher": "Anan",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
     "icon": "images/webapp-icon-128.png",
 	"galleryBanner": {
@@ -14,7 +14,8 @@
 		"vscode": "^1.56.0"
 	},
 	"categories": [
-		"Other","Programming Languages"
+		"Other",
+		"Programming Languages"
 	],"keywords": [
 		"docs",
 		"doc",
