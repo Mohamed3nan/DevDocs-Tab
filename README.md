@@ -3,6 +3,7 @@
 <img src="./images/webapp-icon-128.png">
 </h1>
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/mohamed3nan/DevDocs-Tab)
 [![Marketplace](https://vsmarketplacebadge.apphb.com/version/Anan.devdocstab.svg)](https://vsmarketplacebadge.apphb.com/version/Anan.devdocstab.svg)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/Anan.devdocstab.svg)](https://vsmarketplacebadge.apphb.com/installs-short/Anan.devdocstab.svg)
 [![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/Anan.devdocstab.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/Anan.devdocstab.svg)
